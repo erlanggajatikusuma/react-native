@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Image, Text, View} from 'react-native';
-import hachiman from './hachiman.jpg';
+import hachiman from '../../assets/image/hachiman.jpg';
 
 class FlexBox extends Component {
     render() {
