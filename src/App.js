@@ -1,12 +1,13 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
+import ReactNativeSvg from './pages/ReactNativeSvg';
 // import SampleComponent from './pages/SampleComponent';
 // import StylingComponent from './pages/StylingComponent'
 // import FlexBox from './pages/FlexBox';
 // import Positon from './pages/Position';
 // import PropsDinamis from './pages/PropsDimamis';
 // import StateDinamis from './pages/StateDinamis';
-import Communication from './pages/Communication';
+// import Communication from './pages/Communication';
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         {/* <Positon /> */}
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <ReactNativeSvg />
       </ScrollView>
     </View>
   );
