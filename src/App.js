@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
-import ReactNativeSvg from './pages/ReactNativeSvg';
+import CallAPIAxios from './pages/CallAPIAxios';
+// import CallAPIVanilla from './pages/CallAPIVanilla';
+// import ReactNativeSvg from './pages/ReactNativeSvg';
 // import SampleComponent from './pages/SampleComponent';
 // import StylingComponent from './pages/StylingComponent'
 // import FlexBox from './pages/FlexBox';
@@ -20,7 +22,9 @@ const App = () => {
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
         {/* <Communication /> */}
-        <ReactNativeSvg />
+        {/* <ReactNativeSvg /> */}
+        {/* <CallAPIVanilla /> */}
+        <CallAPIAxios />
       </ScrollView>
     </View>
   );
