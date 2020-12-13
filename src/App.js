@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
-import CallAPIAxios from './pages/CallAPIAxios';
+import LocalAPI from './pages/LocalAPI';
+// import CallAPIAxios from './pages/CallAPIAxios';
 // import CallAPIVanilla from './pages/CallAPIVanilla';
 // import ReactNativeSvg from './pages/ReactNativeSvg';
 // import SampleComponent from './pages/SampleComponent';
@@ -24,7 +25,8 @@ const App = () => {
         {/* <Communication /> */}
         {/* <ReactNativeSvg /> */}
         {/* <CallAPIVanilla /> */}
-        <CallAPIAxios />
+        {/* <CallAPIAxios /> */}
+        <LocalAPI />
       </ScrollView>
     </View>
   );
